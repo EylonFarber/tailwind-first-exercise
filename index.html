@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <div>
+        <nav class="h-12 bg-[#472E27] flex justify-center text-white sm:justify-between border-dashed border-b-1 border-b-white ">
+            <div class="pacifico w-20 p-4 text-center ">logo</div>
+            <div class="w-1/2 flex justify-evenly items-center max-sm:hidden bg-[#472E27]">
+                <p class="pacifico">Link</p>
+                <p class="pacifico">Link</p>
+                <p class="pacifico">Link</p>
+                <p class="pacifico">Link</p>
+           
+            </div>
+        </nav>
+            
+        <main class="hero fitcontent w-full bg-gradient-to-b from-[#472E27] to-[#291812] p-11 flex flex-col sm:flex-row-reverse justify-center items-center gap-8">
+            
+                <div class="txt flex flex-col gap-12 justify-between items-center pt-12 sm:items-start sm:gap-0 sm;justify-between sm:gap-4">
+
+                    <div>
+                    <p class="lato text-[#D8B773] font-semibold">EXCEPTIONAL QUALITY</p>
+                    </div>
+
+                    <div class="fitcontent flex flex-row w-full justify-between">
+                        <h1  class="pacifico text-white  text-6xl leading-[1.5] text-center
+                        justify-self-center w-full sm:text-start">It's time for a <br>good coffee! <span class="inline-block "><img src="https://static.vecteezy.com/system/resources/previews/044/617/809/non_2x/coffee-beans-with-green-leaves-isolated-on-transparent-background-clipping-path-png.png" alt="beans" class= "w-22 apect-1 flex-1"></span></h1>
+                        <!-- how to wrap the text around the beans in the bottom right corner? -->
+                        <!-- <div class="beans h-16 w-16 bg-[#472E27]"></div> -->
+                    </div>
+                    <p class="text-white text-center text-2xl sm:text-start
+                    ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa exercitationem in ab fugit est tenetur perspiciatis officia deleniti nam il</p>
+
+                    <button class="pt-4 pb-4 pl-6 pr-6 rounded-full lato bg-[#D8B773] lato text-2xl">Get started ></button>
+                </div>
+            <div class="fitcontent w-full flex flex-col items-center justify-center">
+        <!-- why is the pictuer higher? -->
+                <img src="https://s.roastmarket.de/media/catalog/product/c/a/caffe-caimano-espresso-classico-1kg-front_1.jpg" alt="beans" class="object-scale-down max-sm:aspect-square">
+            </div>
+        </main>
+        <div class="fitcontent bg-[#291812]">        
+                <div class="menu fitcontent w-full bg-[#472E27] rounded-t-[6vw] flex flex-col items-center sm:flex-row sm:content-ceter sm:gap-0 sm:p-8">
+                    <div class="flex flex-col items-center gap-8 p-12 sm:p-0 sm:pr-12 sm:items-start sm:w-1/2 ">
+                    <button class="w-60 h-18 rounded-full text-white text-xl bg-[#291812]">Scroll down v</button>
+                    <p class="text-xl text-white text-center sm:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. In placeat impedit rem cum obcaecati, fuga exeumque voluptatibus unde nulla. Corrupti tempora laboriosam excepturi aliquam?</p>
+                    </div> 
+                    <!--did not understand how to resize and wrap the images corretly  -->
+                    <!-- how to size container to fit content? -->
+                    <!-- how to deal with max height? -->
+                    <div class="imgs flex flex-wrap p-12 pt-0 justify-between sm:pl-0 sm:justify-between sm:pt-12 sm:w-1/2 sm:wrap-nowrap">
+
+                        <div class="fitcontent w-7/15 w-1/2 pt-12 sm:w-2/7">
+                            <img src="https://s.roastmarket.de/media/catalog/product/c/a/caffe-caimano-espresso-classico-1kg-front_1.jpg"  alt="beans" class="object-scale-down">
+                            <p class="pacifico text-2xl text-center text-white leading-[1.3] pt-6">Clasisc Coffee<br>$17.90</p>
+                        </div>
+                        <div class="fitcontent w-7/15 w-1/2 pt-12 sm:w-2/7">
+                            <img src="https://s.roastmarket.de/media/catalog/product/c/a/caffe-caimano-espresso-classico-1kg-front_1.jpg"  alt="beans" class="object-scale-down">
+                            <p class="pacifico text-2xl text-center text-white leading-[1.3] pt-6">Clasisc Coffee<br>$17.90</p>
+                        </div><div class="fitcontent w-7/15 w-1/2 pt-12 sm:w-2/7">
+                            <img src="https://s.roastmarket.de/media/catalog/product/c/a/caffe-caimano-espresso-classico-1kg-front_1.jpg"  alt="beans" class="object-scale-down">
+                            <p class="pacifico text-2xl text-center text-white leading-[1.3] pt-6">Clasisc Coffee<br>$17.90</p>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="fitcontent bg-[#472E27]">
+                <div class="history fitcontent w-full bg-[#fff] p-6 flex flex-col  rounded-t-[6vw] justify-center items-center gap-18 pz-24 px-12 sm:gap-0 sm:flex-row-reverse text-black p-12 sm:gap-12">
+                    
+                        <div class="txt w-full flex flex-col gap-8 items-center sm:w-1/2 ">
+
+                            <h2 class="pacifico text-3xl w-full text-center sm:text-left">Our History</h2>
+
+                            <p class="lato text-center sm:text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa exercitationem in ab fugit est tenetur perspiciatis officia deleniti nam illo sequi harumrspiciatis officia deleniti nam illo sequi harum, omnis, eum eligendi eius non, porro veniam impedit!</p>
+                        </div>
+                       
+                            <img src="https://as1.ftcdn.net/v2/jpg/01/36/05/70/1000_F_136057023_UK5UJfJAiQOaYazgmi28ckTA6Wln2uvN.jpg" alt="beans" class="w-full rounded-[3vw] rounded-12 sm:w-1/2">
+                        
+                </div>
+            </div>
+<div class="steps fitcontent lato w-full bg-[#472E27] rounded-t-[6vw] flex flex-col p-12 gap-12 text-white">
+    <h2 class="pacifico w-full text-center text-3xl">Steps of manufacturing our product</h2>
+
+    <div class="step1 w-full">
+        <div class=" w-14 h-14 flex flex-col justify-center absolute rounded-full bg-[#D8B773] border-6 border-[#472E27] ">
+            <p class="font-bold text-2xl text-[#472E27] text-center justify-self-center">1</p>
+        </div>
+        <img src="https://cdn.shopify.com/s/files/1/1003/7044/files/unroasted_coffee_beans_raw_coffee_beans_green_coffee_beans_coffee_roaster_large.png?v=1576245595" alt="green beans" class="h-1/3 w-1/3 rounded-full bg-lime-100 border-6 border-[#D8B773]">
+        <p class="pt-6 lato text-[#D8B773] w-3/4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum similique tenetur saepe numquam officia fugit voluptatum unde, dignissimos eum corporis velit? Esse qui aut expedita delectus aspernatur doloremque beatae hic?</p>
+    </div>
+
+    <div class="step2 w-full flex flex-col items-end">
+        <div class=" w-14 h-14 flex flex-col justify-center absolute rounded-full bg-[#D8B773] border-6 border-[#472E27] ">
+            <p class="font-bold text-2xl text-[#472E27] text-center justify-self-center">1</p>
+        </div>
+        <img src="https://cdn.shopify.com/s/files/1/1003/7044/files/unroasted_coffee_beans_raw_coffee_beans_green_coffee_beans_coffee_roaster_large.png?v=1576245595" alt="green beans" class="h-1/3 w-1/3 rounded-full bg-lime-100 border-6 border-[#D8B773]">
+        <p class="pt-6 lato text-[#D8B773] w-3/4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum similique tenetur saepe numquam officia fugit voluptatum unde, dignissimos eum corporis velit? Esse qui aut expedita delectus aspernatur doloremque beatae hic?</p>
+    </div>
+
+    <div class="step3 w-full">
+        <div class=" w-14 h-14 flex flex-col justify-center absolute rounded-full bg-[#D8B773] border-6 border-[#472E27] ">
+            <p class="font-bold text-2xl text-[#472E27] text-center justify-self-center">1</p>
+        </div>
+        <img src="https://cdn.shopify.com/s/files/1/1003/7044/files/unroasted_coffee_beans_raw_coffee_beans_green_coffee_beans_coffee_roaster_large.png?v=1576245595" alt="green beans" class="h-1/3 w-1/3 rounded-full bg-lime-100 border-6 border-[#D8B773]">
+        <p class="pt-6 lato text-[#D8B773] w-3/4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum similique tenetur saepe numquam officia fugit voluptatum unde, dignissimos eum corporis velit? Esse qui aut expedita delectus aspernatur doloremque beatae hic?</p>
+    </div>
+
+</div>
+
+
+</body>
+</html>
